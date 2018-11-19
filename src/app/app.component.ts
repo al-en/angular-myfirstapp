@@ -18,7 +18,7 @@ export class AppComponent {
   age: number = 25;
 
   // Datos
-  posts = []
+  posts = [];
 
   constructor(private dataService: DataService){
     this.dataService.getData().subscribe(data =>{
